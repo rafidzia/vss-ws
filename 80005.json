@@ -1,0 +1,26 @@
+{
+    "action": "80005",
+    "payload": {
+        "accessMode": -2,
+        "deviceTime": "2025-02-17 15:30:46",
+        "appVersion": "P24071601.A1760",
+        "deviceType": "0x4010",
+        "payload": {
+            "gmt": "+08:00",
+            "fw": "ME41-04NA",
+            "ext": "P24071601.A1760",
+            "mcu": "G24010301",
+            "hw": "79",
+            "imei": "862430066007945",
+            "um": 0,
+            "dial": "EC25EUXGAR08A13M1G",
+            "alg": "P23081801.1472"
+        },
+        "extra": {
+            "fw": "ME41-04NA"
+        },
+        "serverTime": "2025-02-17 07:38:27",
+        "deviceID": "007945",
+        "nodeID": "0"
+    }
+}

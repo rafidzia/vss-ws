@@ -1,0 +1,105 @@
+{
+    "action": "80004",
+    "payload": {
+        "wifi": {
+            "strength": "1000",
+            "ip": "",
+            "ssid": "",
+            "gateway": "",
+            "mask": ""
+        },
+        "gsensor": {
+            "hit": "1.96",
+            "x": "0.02",
+            "y": "-0.40",
+            "z": "1.92",
+            "tilt": "23.64"
+        },
+        "dtu": "2025-02-17 15:38:32",
+        "fuel": {
+            "cost": "0.00"
+        },
+        "module": {
+            "wifi": "0",
+            "gsensor": "1",
+            "record": "0x0",
+            "mobile": "1",
+            "location": "1"
+        },
+        "mobile": {
+            "strength": "10",
+            "type": "5"
+        },
+        "isLater": 0,
+        "eventType": "alarm",
+        "storage": [
+            {
+                "total": "121942",
+                "name": "sd1",
+                "index": "0",
+                "free": "0",
+                "status": "3"
+            }
+        ],
+        "deviceID": "869857",
+        "bluetooh": {
+            "connect": "0"
+        },
+        "voltage": {
+            "bat": "11.70",
+            "vcc": "27.70",
+            "vo2": "0.32",
+            "vo1": "0.38"
+        },
+        "alarmDetail": "channel:3",
+        "driver": {
+            "name": "",
+            "id": ""
+        },
+        "load": {
+            "status": "0"
+        },
+        "payload": {
+            "st": "2025-02-17 15:27:04",
+            "det": {
+                "ch": "3"
+            },
+            "dtu": "2025-02-17 15:27:04",
+            "drid": "",
+            "drname": "",
+            "spds": "0",
+            "uuid": "17398060240040020000000000869857",
+            "ec": 1,
+            "et": ""
+        },
+        "alarm": {
+            "videoLost": "0x4",
+            "input": "0x0",
+            "urgency": "0x0",
+            "motionDection": "0x0",
+            "videoMask": "0x0",
+            "overSpeed": "0x0",
+            "lowSpeed": "0x0"
+        },
+        "alarmID": "17398060240040020000000000869857",
+        "location": {
+            "mode": "1",
+            "satellites": "21",
+            "altitude": "39",
+            "dtu": "2025-02-17 15:38:23",
+            "precision": "0",
+            "latitude": "-1.822832",
+            "direct": "62",
+            "speed": "0.00",
+            "longitude": "116.154716"
+        },
+        "basic": {
+            "key": "1"
+        },
+        "nodeID": "0",
+        "mileage": {
+            "total": "672190",
+            "todayDay": "258890"
+        }
+    }
+}

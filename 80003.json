@@ -1,0 +1,92 @@
+{
+    "action": "80003",
+    "payload": {
+        "deviceID": "398595",
+        "nodeID": "0",
+        "dtu": "2025-02-17 15:38:33",
+        "location": {
+            "mode": "1",
+            "dtu": "2025-02-17 15:38:30",
+            "direct": "56",
+            "satellites": "19",
+            "speed": "39.66",
+            "altitude": "20",
+            "precision": "0",
+            "longitude": "117.246010",
+            "latitude": "3.636343"
+        },
+        "gsensor": {
+            "x": "-0.38",
+            "y": "0.30",
+            "z": "2.05",
+            "tilt": "27.02",
+            "hit": "2.11"
+        },
+        "basic": {
+            "key": "1"
+        },
+        "module": {
+            "mobile": "1",
+            "location": "1",
+            "wifi": "0",
+            "gsensor": "1",
+            "record": "0xf"
+        },
+        "fuel": {
+            "cost": "0.00"
+        },
+        "mobile": {
+            "type": "5",
+            "strength": "4"
+        },
+        "wifi": {
+            "strength": "1000",
+            "ip": "",
+            "mask": "",
+            "gateway": "",
+            "ssid": ""
+        },
+        "storage": [
+            {
+                "name": "sd1",
+                "index": "0",
+                "status": "1",
+                "total": "121942",
+                "free": "0"
+            }
+        ],
+        "alarm": {
+            "videoLost": "0x4",
+            "motionDection": "0x0",
+            "videoMask": "0x0",
+            "input": "0x0",
+            "overSpeed": "0x0",
+            "lowSpeed": "0x0",
+            "urgency": "0x0"
+        },
+        "mileage": {
+            "todayDay": "132990",
+            "total": "2048690"
+        },
+        "voltage": {
+            "vcc": "27.30",
+            "bat": "11.60",
+            "vo1": "0.31",
+            "vo2": "0.36"
+        },
+        "driver": {
+            "id": "",
+            "name": ""
+        },
+        "bluetooh": {
+            "connect": "0"
+        },
+        "load": {
+            "status": "0"
+        },
+        "ext": {
+            "isLater": false,
+            "reportTime": 1739777914896
+        }
+    }
+}

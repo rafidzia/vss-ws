@@ -11,7 +11,7 @@ export function request<T>(path: string, method: string, data: { [key: string]: 
                 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
                 "Referer": host
             },
-            body: Object.keys(data).map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])).join('&')
+            body: ["GET", "HEAD"].includes(method) ? undefined : Object.keys(data).map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])).join('&')
         })
         .then(res => res.json())
         .then(resolve)

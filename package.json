@@ -11,10 +11,13 @@
   },
   "devDependencies": {
     "@types/node": "^22.13.4",
+    "@types/nsqjs": "^0.12.4",
     "@types/ws": "^8.5.14"
   },
   "dependencies": {
     "dotenv": "^16.4.7",
+    "jackd": "^3.4.4",
+    "nsqjs": "github:rafidzia/nsqjs",
     "ws": "^8.18.0"
   }
 }

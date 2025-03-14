@@ -87,6 +87,7 @@ export function proceedAsFlespi(tube: string, deviceIDs: number[], data: string,
 
 export function proceedAsGate(tube: string, deviceIDs: number[], data: string, client: Writer) {
     const asd = JSON.parse(data.toString()) as Data
+    if (!['80003', '80004', '80005'].includes(asd.action)) return
     const model = deviceIdToModel[asd.payload.deviceID]
     const outdata = {
         data: asd,
@@ -94,5 +95,6 @@ export function proceedAsGate(tube: string, deviceIDs: number[], data: string, c
         family: "vss_ws",
         model
     }
+    console.log(outdata)
     client.publish(tube, JSON.stringify(outdata))
 }
